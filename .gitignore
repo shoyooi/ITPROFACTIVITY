@@ -1,0 +1,29 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backend (Laravel)
+cjc-inventory-backend/vendor/
+cjc-inventory-backend/node_modules/
+cjc-inventory-backend/.env
+cjc-inventory-backend/.env.*
+cjc-inventory-backend/storage/*.key
+cjc-inventory-backend/storage/logs/
+cjc-inventory-backend/storage/framework/cache/
+cjc-inventory-backend/storage/framework/sessions/
+cjc-inventory-backend/storage/framework/views/
+cjc-inventory-backend/storage/testing/
+
+# Frontend (Vue/Vite)
+cjc-inventory-frontend/node_modules/
+cjc-inventory-frontend/dist/
+cjc-inventory-frontend/.vite/
+cjc-inventory-frontend/.env
+cjc-inventory-frontend/.env.*
+
+# General
+*.log
